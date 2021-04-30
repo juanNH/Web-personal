@@ -1,0 +1,272 @@
+main{
+    width: 88%;
+    margin-right:auto;
+    margin-left:auto;
+    border:#1b262c;
+    border-width: 5px;
+    border-style: solid; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color: #bbe1fa;    
+}
+header{
+    background-color:#0f4c75;
+    padding: 5px;
+    width: 100%;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+nav{
+    background-color:#1b262c;
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+}
+article{
+    border-radius: 4px;
+    margin: 12px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color:#f5a31a;
+    padding: 2.175rem;
+    border-width: 2px;
+    border-style: solid;
+}
+.blog-article img{
+    height: 40%;
+    width: 100%;
+}
+.blog-article{
+    font-style: arial;
+    text-align: center;
+    color:black;
+    transition: transform 0.2s;
+}
+.blog-article:hover{
+    transform: scale(1.05);
+}
+
+.a-blog{
+    text-decoration: none;  
+
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.li-nav{
+    padding:15px;     
+    text-align: center;
+}
+ul{
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+li{
+    list-style:none;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    
+}
+.li-header{
+    text-align: center;
+}
+.li-header img{
+    width: 40px;
+    height: 40px;
+    margin:auto;
+}
+.li-header p {
+    font-weight: bold;
+}
+.li-nav a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #f5a31a;
+    padding:15px; 
+    text-align: center;
+    width: 80%;
+}
+
+.li-nav a:hover , li.nav a:active {
+    background-color: #f5a31a;
+    color: black;
+    border:#bbe1fa;
+}
+#foto-perfil{
+    display:block;
+    margin:auto;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+#nombre{
+    font-family: letracs;
+    color: #1b262c;
+}
+
+
+@media (min-width: 50px){
+    #nombre {
+        font-size: 20px;
+    }
+    .li-nav a{
+        font-size: 10px;
+    }
+    h2{
+        font-size: 100%;
+    }
+    aside a{
+        font-size:10px;
+    }
+}
+
+@media (min-width: 380px){
+    #nombre {
+        font-size: 60px;
+    }
+    .li-nav a{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 200%;
+    }
+    aside a{
+        font-size:100%;
+    }
+}
+@font-face {
+    font-family:letracs;
+    src: url(../fuentes/cs_regular.ttf);
+}
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.formulario label{
+padding: 15px;
+font-family:sans-serif;
+font-size: 110%;
+text-align: center;
+margin-left: 50%;
+transform: translateX(-50%);
+color: #1b262c;
+}
+.formulario input ,.formulario textarea{
+    width: 60%;
+    box-shadow: 0 0 5px black;
+    border: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px 10px 5px;
+    border-radius: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.formulario input:focus ,.formulario textarea:focus {
+    outline:  none;
+    box-shadow: 0 0 10px green;
+}
+button:focus{
+    box-shadow: 0 0 10px green;
+}
+button{
+    width: 33.33%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-style: none;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+footer a img{
+    height: 20px;
+    width: 20p x;
+}
+#aside-contacto a img{
+    height: 60px;
+    width: 60px;
+}
+#aside-contacto a{
+    display: block;
+    align-content: center;
+    padding: 15px;
+    font-family: sans-serif;
+
+    text-decoration: none;
+    color:#1b262c ;
+}
+#aside-contacto{
+    border: green;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 15px;
+    height: 90%;
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: white;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
