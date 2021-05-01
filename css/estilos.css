@@ -217,13 +217,13 @@ li{
 	100% {margin-left: -300%;}
 }
 .formulario label{
-padding: 15px;
-font-family:sans-serif;
-font-size: 110%;
-text-align: center;
-margin-left: 50%;
-transform: translateX(-50%);
-color: #1b262c;
+    padding: 15px;
+    font-family:sans-serif;
+    font-size: 110%;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #1b262c;
 }
 .formulario input ,.formulario textarea{
     width: 60%;
@@ -290,3 +290,40 @@ footer a img{
     transform: translateX(-50%);
 }
 
+
+table{
+    font-style: arial;
+    text-align: center;
+    margin-top: 40px;
+    overflow-x:auto;
+    display: block;
+    width: 100%;
+}
+td{
+    background-color: rgb(230, 214, 214);
+}
+th{
+    background-color: white;
+}
+th, td, thead, tbody{
+    border:grey;
+    border-width: 1px;
+    border-style:groove;
+    min-width: 250px;
+    padding: 5px;
+    border-color: grey;
+}
+td a img{
+    width: 20px;
+    height: 20px;
+}
+td a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+td a:hover{
+    font-size: 105%;
+    color: black;
+    text-decoration: underline;
+}
