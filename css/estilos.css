@@ -342,6 +342,8 @@ nav{
   
   .nav-pc .menu {
     display: none;
+    background-color: #f5a31a;
+    color: black;
   }
 
   .active:hover {
