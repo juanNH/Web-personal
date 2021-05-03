@@ -88,10 +88,6 @@ footer{
     top: 90px;
 }
 
-.li-nav{
-    padding:15px;     
-    text-align: center;
-}
 ul{
     margin-right:auto;
     margin-left:auto;
@@ -105,21 +101,7 @@ li{
     margin-top:auto;
     margin-bottom:auto;   
 }
-.li-nav a{
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #f5a31a;
-    padding:15px; 
-    text-align: center;
-    width: 80%;
-}
 
-.li-nav a:hover , li.nav a:active {
-    background-color: #f5a31a;
-    color: black;
-    border:#bbe1fa;
-}
 #foto-perfil{
     display:block;
     margin:auto;
@@ -338,7 +320,6 @@ nav{
 
   
   .nav-pc a {
-    float: left;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -347,11 +328,15 @@ nav{
     text-align: center;
     text-decoration: none;
     color: #f5a31a;
-    padding:15px; 
+    padding: 15px; 
     text-align: center;
   }
   .resto{
     float: right;
+  }
+  .active{
+    float: left;
+    margin-left: 5%;
   }
   
   
