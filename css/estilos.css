@@ -352,8 +352,11 @@ nav{
     color: black;
     border:#bbe1fa;
 }
+#hidden-noresponsive{
+    visibility: hidden;
+}
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 766px) {
     .nav-pc a:not(:first-child) {
       display: none;
     }
@@ -361,19 +364,33 @@ nav{
       float: right;
       display: block;
     }
+    .active{
+        margin-left: 0%;
+    }
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 766px) {
     .nav-pc.responsive {position: relative;}
     .nav-pc.responsive .menu {
       position: absolute;
       right: 0;
       top: 0;
     }
+    .active{
+        margin-left: 0%;
+    }
     .nav-pc.responsive a {
       float: none;
       display: block;
       text-align: left;
     }
+    #hidden-noresponsive{
+        visibility:visible;
+    }
+    #hidden-responsive{
+        visibility:hidden;
+        display: none;
+    }
+
   }
 
