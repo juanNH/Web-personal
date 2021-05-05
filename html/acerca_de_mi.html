@@ -9,26 +9,51 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <nav class="nav-pc" id="navi">
-        <a href="../index.html" class="active">Inicio</a>
-        <a href="proyectos.html" class="resto" id="hidden-noresponsive">Proyectos</a>
-        <a href="contacto.html" class="resto" >Contacto</a>
-        <a href="acerca_de_mi.html" class="resto">Sobre mi</a>
-        <a href="blog.html" class="resto" >Blog</a>
-        <a href="proyectos.html" class="resto" id="hidden-responsive" >Proyectos</a>
-        <a href="javascript:void(0);" style="font-size:15px;" class="menu" onclick="myFunction()">&#9776;</a>
-    </nav>
-    <header> 
-        <h1>Sobre mi</h1>
+    <nav>
+        <div class="container">
+            <ul class="ul-nav"> 
+                <div class="row">
+                    <div class="col-lg-2  col-md-6 col-sm-12 "> 
+                        <li class="li-nav"> <a href="../index.html">Inicio</a></li>  
+                    </div>
+                    <div class="col-lg-2  col-md-6 col-sm-12 ">
+                        <li class="li-nav"> <a href="acerca_de_mi.html">Sobre mi</a></li>
+                    </div>
+                    <div class="col-lg-2  col-md-6 col-sm-12 ">
+                        <li class="li-nav"> <a href="blog.html">Blog</a></li>    
+                    </div> 
+                    <div class="col-lg-2  col-md-6 col-sm-12 ">  
+                        <li class="li-nav"> <a href="proyectos.html">Proyectos</a></li> 
+                    </div>
+                    <div class="col-lg-2  col-md-6 col-sm-12 ">  
+                        <li class="li-nav"> <a href="contacto.html">Contacto</a></li>
+                    </div>
+                </div> <!--fin row-->
+            </ul> <!--fin ul-->
+        </div> <!--fin container-->
+
+    </nav> <!--fin nav-->
+    <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12  col-md-12 col-sm-12 "> 
+                        <h1>Sobre mi</h1>
+                    </div><!--fin col-->
+                </div><!--fin row -->
+            </div><!--fin container-->
     </header> <!--fin header-->
     <main>
-            <article>
-                <h3>¿Quien soy?</h3>
-                <p>Hola soy Juan, tengo 20 años soy un apasionado de la tecnología. Fanático de la programación web y de la ciencia de datos. Actualmente estoy cursando Ingeniería  informática en la universidad de Buenos Aires, aprendiendo mediante cursos y de manera autodidacta sobre lo que me gusta.</p>                <h3>Un poco de mi del pasado :P</h3>
-                <p>De pequeño siempre me atrajeron las computadoras y gracias a eso tuve claro que quería estudiar. Tuve la suerte de poder entrar en la secundaria que quería, la cual tenia especializaciones técnicas. Principalmente había ido por la especialidad de Computación en la cual aprendí sobre la programación, redes informáticas, organización de procesos, etc. Esto me abrió el panorama del mundo de la informática  la cual me permitió decidir a que me quería dedicar en el futuro.</p>
-                <h3>¿Que estoy haciendo actualmente?</h3>
-                <p>Actualmente no estoy buscando trabajo de manera activa. Uso el tiempo para seguir avanzando con la universidad  ,mejorar como programador con pequeños proyectos y mejorar mis idiomas, actualmente hablo Español e Ingles de manera fluida y estoy en proceso de aprender Portugués.</p>
+        <article>
+            <h2>¿Quien soy?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, tempor montes duis laoreet quisque eleifend nec pretium, erat in sagittis luctus justo volutpat. Est hendrerit vehicula convallis ante condimentum himenaeos ultricies metus, sollicitudin malesuada per urna habitant posuere et, taciti ut montes magnis curae netus euismod. Congue montes sodales ullamcorper quam quis viverra mattis, nec duis primis vel odio bibendum ligula quisque, curabitur eros in et ultricies consequat.
+
+                Senectus elementum sapien accumsan fermentum nibh diam lacinia, ad varius conubia facilisis penatibus eleifend, libero aliquet fringilla blandit volutpat porta. Commodo dictum posuere vel ut diam nisi curae fermentum duis, tempus mauris per consequat et sociosqu magna ultrices eu id, torquent condimentum pulvinar sapien placerat potenti orci interdum. Iaculis dignissim per natoque etiam quam quis penatibus lacinia scelerisque ullamcorper, posuere non aenean feugiat auctor mi pulvinar lacus euismod vitae, ad cras integer diam sem suspendisse felis tempus et.</p>
+            <h2>¿Que busco?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, tempor montes duis laoreet quisque eleifend nec pretium, erat in sagittis luctus justo volutpat. Est hendrerit vehicula convallis ante condimentum himenaeos ultricies metus, sollicitudin malesuada per urna habitant posuere et, taciti ut montes magnis curae netus euismod. Congue montes sodales ullamcorper quam quis viverra mattis, nec duis primis vel odio bibendum ligula quisque, curabitur eros in et ultricies consequat.
+
+                Senectus elementum sapien accumsan fermentum nibh diam lacinia, ad varius conubia facilisis penatibus eleifend, libero aliquet fringilla blandit volutpat porta. Commodo dictum posuere vel ut diam nisi curae fermentum duis, tempus mauris per consequat et sociosqu magna ultrices eu id, torquent condimentum pulvinar sapien placerat potenti orci interdum. Iaculis dignissim per natoque etiam quam quis penatibus lacinia scelerisque ullamcorper, posuere non aenean feugiat auctor mi pulvinar lacus euismod vitae, ad cras integer diam sem suspendisse felis tempus et.</p>
             </article>
+
     </main>
     <footer>
         <b>"Desarrollado por Juan Herrera"</b>        
@@ -37,15 +62,5 @@
         <a href=""><img src="../img/icons/twitter-square-brands.svg" alt=""></a>
         <a href=""><img src="../img/icons/linkedin-brands.svg" alt=""></a>
     </footer>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("navi");
-          if (x.className === "nav-pc") {
-            x.className += " responsive";
-          } else {
-            x.className = "nav-pc";
-          }
-        }
-        </script>
 </body>
 </html>
