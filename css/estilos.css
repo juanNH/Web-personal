@@ -200,10 +200,9 @@ li{
     outline:  none;
     box-shadow: 0 0 10px green;
 }
-.boton-contacto:focus{
+#boton-contacto:focus{
     box-shadow: 0 0 10px green;
 }
-.boton-contacto{
     width: 33.33%;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -303,40 +302,40 @@ nav{
     overflow: hidden;
     width: 100%;
 } 
-  .nav-pc a {
+.nav-pc a {
     display: block;
     text-align: center;
     text-decoration:none;
     font-size: 17px;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;
     color: #f5a31a;
     padding: 15px; 
     text-align: center;
-  }
-  .resto{
+}
+.resto{
     float: right;
+    text-decoration: none;
   }
-  .active{
+.active{
     float: left;
     margin-left: 5%;
-  }
-  
-  
-  .nav-pc .menu {
+    text-decoration: none;
+}  
+.nav-pc .menu {
     display: none;
     background-color: #f5a31a;
     color: black;
-  }
+}
 
-  .active:hover {
+.active:hover {
     background-color: green;
-  }
-  .nav-pc a:hover , .nav-pc a:active {
+}
+.nav-pc a:hover , .nav-pc a:active {
     background-color: #f5a31a;
     color: black;
     border:#bbe1fa;
+    text-decoration:none;
 }
 #hidden-noresponsive{
     visibility: hidden;
