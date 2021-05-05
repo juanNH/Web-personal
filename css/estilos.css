@@ -203,6 +203,7 @@ li{
 #boton-contacto:focus{
     box-shadow: 0 0 10px green;
 }
+#boton-contacto{
     width: 33.33%;
     margin-left: 50%;
     transform: translateX(-50%);
