@@ -70,6 +70,9 @@ article{
     border-width: 1px;
     border-style: solid;
     width: 100%;
+    max-width: 3000px;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 article p{
     font-size: 14px;
@@ -221,6 +224,18 @@ footer a img {
     height: 20px;
     width: 20px;
 }
+article .text{
+    font-size: 1vw;
+}
+article .titulo-text{
+    font-size: 2vw;
+}
+.titulo{
+    font-size: 50px;
+}
+#index-art{
+    margin-top: 0px;
+}
 #article-contacto-redes a img{
     height: 17%;
     width: 17%;
@@ -257,10 +272,7 @@ footer a img {
     margin-left: auto;
     margin-right: auto;
     min-height: 200px !important;
-    
-}
-#index-art{
-    margin-top: 0px;
+
 }
 
 table{
@@ -338,10 +350,10 @@ nav{
     border:#bbe1fa;
     text-decoration:none;
 }
-#hidden-noresponsive{
+.hidden-noresponsive{
     visibility: hidden;
 }
-  
+
   @media screen and (max-width: 766px) {
     .nav-pc a:not(:first-child) {
       display: none;
@@ -370,7 +382,7 @@ nav{
       display: block;
       text-align: left;
     }
-    #hidden-noresponsive{
+    .hidden-noresponsive{
         visibility:visible;
     }
     #hidden-responsive{
