@@ -385,9 +385,9 @@ nav{
     .hidden-noresponsive{
         visibility:visible;
     }
-    #hidden-responsive{
+    .hidden-responsive{
         visibility:hidden;
-        display: none;
+        display: none !important;
     }
 
   }
