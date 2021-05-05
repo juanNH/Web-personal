@@ -12,45 +12,17 @@
 </head>
 
 <body>
-    <nav>
-        <div class="container">
-            <ul class="ul-nav">
-                <div class="row">
-                    <div class="col-lg-2  col-md-6 col-sm-12 ">
-                        <li class="li-nav"> <a href="../index.html"> Inicio </a> </li>
-                    </div>
-                    <div class="col-lg-2  col-md-6 col-sm-12 ">
-                        <li class="li-nav"> <a href="acerca_de_mi.html">Sobre mi</a></li>
-                    </div>
-                    <div class="col-lg-2  col-md-6 col-sm-12 ">
-                        <li class="li-nav"> <a href="blog.html">Blog</a></li>
-                    </div>
-                    <div class="col-lg-2  col-md-6 col-sm-12 ">
-                        <li class="li-nav"> <a href="proyectos.html">Proyectos</a></li>
-                    </div>
-                    <div class="col-lg-2  col-md-6 col-sm-12 ">
-                        <li class="li-nav"> <a href="contacto.html">Contacto</a></li>
-                    </div>
-                </div>
-                <!--fin row-->
-            </ul>
-            <!--fin ul-->
-        </div>
-        <!--fin container-->
-
+    <nav class="nav-pc" id="navi">
+        <a href="../index.html" class="active">Inicio</a>
+        <a href="proyectos.html" class="resto" id="hidden-noresponsive">Proyectos</a>
+        <a href="contacto.html" class="resto" >Contacto</a>
+        <a href="acerca_de_mi.html" class="resto">Sobre mi</a>
+        <a href="blog.html" class="resto" >Blog</a>
+        <a href="proyectos.html" class="resto" id="hidden-responsive" >Proyectos</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="menu" onclick="myFunction()">&#9776;</a>
     </nav>
-    <!--fin nav-->
     <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12  col-md-12 col-sm-12 ">
-                    <h1>Contacto</h1>
-                </div>
-                <!--fin col-->
-            </div>
-            <!--fin row -->
-        </div>
-        <!--fin container-->
+        <h1>Contacto</h1>
     </header>
     <!--fin header-->
     <main>
@@ -77,7 +49,7 @@
                                 <textarea type="text" class="" id="" placeholder="Mensaje" name="message"
                                     required></textarea>
                             </div>
-                            <button type="submit">Enviar</button>
+                            <button id="boton-contacto" type="submit">Enviar</button>
                         </form>
                     </article>
                 </div>
@@ -110,6 +82,16 @@
         <a href=""><img src="../img/icons/twitter-square-brands.svg" alt=""></a>
         <a href=""><img src="../img/icons/linkedin-brands.svg" alt=""></a>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("navi");
+          if (x.className === "nav-pc") {
+            x.className += " responsive";
+          } else {
+            x.className = "nav-pc";
+          }
+        }
+        </script>
 </body>
 
 </html>
