@@ -97,8 +97,8 @@ section{
     font-size: 14px;
 }
 .blog-section img{
-    height: 40%;
-    width: 40%;
+    height: 60%;
+    width: 60%;
 }
 #index-art img {
     height: 30px;
@@ -258,6 +258,16 @@ article .titulo-text{
 #index-art{
     margin-top: 0px;
 }
+#cont-blog{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#cont-blog h3{
+    font-size: 2vw;
+}
+#cont-blog p{
+    font-size: 1vw;
+}
 #article-contacto-redes h2{
     font-size: 2.5vw;
 }
@@ -306,13 +316,14 @@ article .titulo-text{
     width: 50%;
     float: left;
     display: inline-block;
+
 }
 #hola{
     margin-left: 50%;
     transform: translateX(-50%);
     width: 100%;
     display: inline-block;
-    max-width: 2000px;
+    max-width: 2600px;
 }
 
 #maindivar2{
@@ -417,7 +428,7 @@ nav{
     visibility: hidden;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
     .nav-pc a:not(:first-child) {
       display: none;
     }
