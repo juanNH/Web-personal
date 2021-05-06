@@ -4,6 +4,7 @@ main{
     margin-left:auto;
     border:#1b262c;
     height: 100%;
+    display: block;
 }
 h1{
     text-align: center;
@@ -132,8 +133,9 @@ footer{
     color: black;
     text-align: center;
     position: relative;
-    display: block;
+    display: inline-block;
     top: 90px;
+
 }
 footer img{
     width: 20px;
@@ -304,11 +306,7 @@ article .titulo-text{
     width: 50%;
     float: left;
 }
-main{
-    display: inline-block;
-    margin-left: 50%;
-    transform: translateX(-50%);
-}
+
 
 
 
