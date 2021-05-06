@@ -264,15 +264,19 @@ article .titulo-text{
     transform: translateX(-50%);
 }
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
-    display:block;
-  }
-.carroza{
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 200px !important;
 
+
+.carousel-item  {
+    margin: auto; 
+    display: block;
+    border-top: 1%;
+    border-left: 1%;
+    border-right: 1%;
+    border-bottom: 00px;
+    border-color: red;
+    border-style: solid;
+    left: -5%;
+    position: relative;
 }
 
 table{
@@ -364,6 +368,11 @@ nav{
     }
     .active{
         margin-left: 0%;
+    }
+    .carousel-item  {
+
+        left: 0%;
+
     }
   }
   
