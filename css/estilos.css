@@ -5,6 +5,7 @@ main{
     border:#1b262c;
     height: 100%;
     display: block;
+
 }
 h1{
     text-align: center;
@@ -164,9 +165,9 @@ li{
     margin-bottom:auto;   
 }
 
+
 #main-div{
     display: block;
-    width: 100%;
     background: none;
     height: 300px;
     margin-left:auto;
@@ -237,7 +238,7 @@ li{
     border-radius: 10px;
     padding: 5px;
     height: 20%;
-    font-size: 3vw;
+    font-size: 2vw;
     background: #1b262c;
     color: #f5a31a;
 }
@@ -291,6 +292,7 @@ article .titulo-text{
     margin-top: 15px;
     background-color: white;
     width: 80%;
+    max-width: 1200px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -299,6 +301,18 @@ article .titulo-text{
     width: 50%;
     float: left;
 
+}
+#maindivar1-blog{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+#hola{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: inline-block;
+    max-width: 2000px;
 }
 
 #maindivar2{
@@ -368,7 +382,7 @@ nav{
     display: block;
     text-align: center;
     text-decoration:none;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     text-align: center;
     color: #f5a31a;
@@ -403,7 +417,7 @@ nav{
     visibility: hidden;
 }
 
-  @media screen and (max-width: 766px) {
+@media screen and (max-width: 766px) {
     .nav-pc a:not(:first-child) {
       display: none;
     }
@@ -425,9 +439,17 @@ nav{
         width: 100%;
 
     }
-  }
-  
-  @media screen and (max-width: 766px) {
+    .main-div .nombre{
+    font-size: 20px;
+    } 
+    #maindivar1-blog{
+        width: 100%;
+    }
+}
+.text-main{
+    font-size: 18px;
+}
+@media screen and (max-width: 766px) {
     .nav-pc.responsive {position: relative;}
     .nav-pc.responsive .menu {
       position: absolute;
@@ -449,6 +471,5 @@ nav{
         visibility:hidden;
         display: none !important;
     }
-
-  }
+}
 
