@@ -93,8 +93,8 @@ section{
     margin-left: 50%;
     transform: translateX(-50%);
 }
-.articlea p{
-    font-size: 14px;
+.articlea .text{
+    font-size: 1vw;
 }
 .blog-section img{
     height: 60%;
@@ -207,7 +207,7 @@ li{
     transform: translateX(-50%);
     color: #1b262c;
 }
-.formulario input , .formulario textarea{
+.formulario .input-contacto , .formulario .textarea-contacto{
     width: 60%;
     box-shadow: 0 0 5px black;
     border: none;
@@ -219,7 +219,7 @@ li{
     transform: translateX(-50%);
     resize: none;
 }
-.formulario input:focus ,.formulario textarea:focus {
+.formulario .input-contacto:focus ,.formulario .textarea-contacto:focus {
     outline:  none;
     box-shadow: 0 0 1vw green;
 }
@@ -245,9 +245,6 @@ li{
 footer a img {
     height: 20px;
     width: 20px;
-}
-article .text{
-    font-size: 1vw;
 }
 article .titulo-text{
     font-size: 2vw;
@@ -282,7 +279,6 @@ article .titulo-text{
     text-decoration: none;
     color:#1b262c ;  
     font-size: 2vw; 
-
 }
 #article-contacto-redes li{
     margin-top: 1vw;
@@ -447,8 +443,7 @@ nav{
 
     }
     #maindivar2{
-        width: 100%;
-
+        width: 100%
     }
     .main-div .nombre{
     font-size: 20px;
@@ -456,9 +451,25 @@ nav{
     #maindivar1-blog{
         width: 100%;
     }
+    .articlea .text, .formulario label, .input-contacto{
+        font-size: 11px;
+    }
+    .formulario label, .input-contacto{
+        font-size: 16px;
+    }
+    .articlea .titulo-text, .article-contacto li a{
+        font-size: 20px;
+    }
+    #article-contacto-redes a{
+        font-size: 4vw;
+
+    }
+    #article-contacto-redes a:hover{
+        font-size: 4.4vw;
+    }
 }
 .text-main{
-    font-size: 18px;
+    font-size: 12px;
 }
 @media screen and (max-width: 766px) {
     .nav-pc.responsive {position: relative;}
