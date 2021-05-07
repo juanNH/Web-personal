@@ -50,7 +50,7 @@ header{
     background-position: center center;
     background-attachment: fixed;
 }
-section{
+.blog-section{
     border-radius: 4px;
     margin: 12px;
     padding-bottom: 20px;
@@ -60,6 +60,7 @@ section{
     padding: 2.175rem;
     border-width: 2px;
     border-style: solid;
+    width: 97%;
 }
 #index-art{
     border-radius: 4px;
@@ -102,7 +103,7 @@ section{
 }
 #index-art img {
     height: 30px;
-    width: 30x;
+    width: 30px;
     float: right;
 }
 #index-art a{
@@ -115,6 +116,10 @@ section{
     font-size: 140%;
     color:brown;
 }
+#index-art .text {
+    font-size: 1vw;
+}
+
 .blog-section{
     font-style: arial;
     text-align: center;
@@ -424,6 +429,8 @@ nav{
     visibility: hidden;
 }
 
+
+
 @media screen and (max-width: 768px) {
     .nav-pc a:not(:first-child) {
       display: none;
@@ -451,13 +458,13 @@ nav{
     #maindivar1-blog{
         width: 100%;
     }
-    .articlea .text, .formulario label, .input-contacto{
+    .articlea .text,#index-art .text, .input-contacto, #maindivar1-blog .text{
         font-size: 11px;
     }
     .formulario label, .input-contacto{
         font-size: 16px;
     }
-    .articlea .titulo-text, .article-contacto li a{
+    .articlea .titulo-text, .article-contacto li a, #index-art .titulo-text, #maindivar1-blog .titulo-text{
         font-size: 20px;
     }
     #article-contacto-redes a{
@@ -494,4 +501,3 @@ nav{
         display: none !important;
     }
 }
-
