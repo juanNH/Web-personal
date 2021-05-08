@@ -5,13 +5,13 @@ main{
     border:#1b262c;
     height: 100%;
     display: block;
-
+    max-width: 3000px;
 }
 h1{
     text-align: center;
     position: relative;
     bottom: -100px;
-    font-family: titulo;
+    font-family: titulo;z
     font-size: 66px;
     color: green;
 }
@@ -332,11 +332,6 @@ article .titulo-text{
     width: 50%;
     float: left;
 }
-
-
-
-
-
 .carousel-item  {
     margin: auto; 
     display: block;
@@ -346,7 +341,7 @@ article .titulo-text{
     border-bottom: 1%;
     border-color: red;
     border-style: solid;
-    left: -5%;
+
     position: relative;
 }
 
@@ -402,12 +397,12 @@ nav{
     text-align: center;
 }
 .resto{
-    float: right;
+    float: left;
     text-decoration: none;
-  }
+}
+
 .active{
     float: left;
-    margin-left: 5%;
     text-decoration: none;
 }  
 .nav-pc .menu {
@@ -425,12 +420,6 @@ nav{
     border:#bbe1fa;
     text-decoration:none;
 }
-.hidden-noresponsive{
-    visibility: hidden;
-}
-
-
-
 @media screen and (max-width: 768px) {
     .nav-pc a:not(:first-child) {
       display: none;
@@ -492,12 +481,5 @@ nav{
       float: none;
       display: block;
       text-align: left;
-    }
-    .hidden-noresponsive{
-        visibility:visible;
-    }
-    .hidden-responsive{
-        visibility:hidden;
-        display: none !important;
     }
 }
