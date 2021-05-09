@@ -5,13 +5,13 @@ main{
     border:#1b262c;
     height: 100%;
     display: block;
-    max-width: 3000px;
+    max-width: 2600px;
 }
 h1{
     text-align: center;
     position: relative;
     bottom: -100px;
-    font-family: titulo;z
+    font-family: titulo;
     font-size: 66px;
     color: green;
 }
@@ -206,7 +206,7 @@ li{
 .formulario label{
     padding: 15px;
     font-family:sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     text-align: center;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -216,7 +216,7 @@ li{
     width: 60%;
     box-shadow: 0 0 5px black;
     border: none;
-    font-size: 2vw;
+    font-size: 1.5vw;
     display: block;
     padding: 10px 10px 10px 5px;
     border-radius: 0;
@@ -243,7 +243,7 @@ li{
     border-radius: 10px;
     padding: 5px;
     height: 20%;
-    font-size: 2vw;
+    font-size: 1.7vw;
     background: #1b262c;
     color: #f5a31a;
 }
@@ -271,7 +271,7 @@ article .titulo-text{
     font-size: 1vw;
 }
 #article-contacto-redes h2{
-    font-size: 2.5vw;
+    font-size: 2vw;
 }
 #article-contacto-redes a img{
     height: 17%;
@@ -283,14 +283,14 @@ article .titulo-text{
     font-family: sans-serif;
     text-decoration: none;
     color:#1b262c ;  
-    font-size: 2vw; 
+    font-size: 1.4vw; 
 }
 #article-contacto-redes li{
     margin-top: 1vw;
 }
 #article-contacto-redes a:hover{
     color: green;
-    font-size: 2.5vw;
+    font-size: 1.6vw;
 }
 #article-contacto-redes{
     width: 60%;
@@ -341,7 +341,6 @@ article .titulo-text{
     border-bottom: 1%;
     border-color: red;
     border-style: solid;
-
     position: relative;
 }
 
