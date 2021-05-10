@@ -261,8 +261,7 @@ article .titulo-text{
     margin-top: 0px;
 }
 #cont-blog{
-    margin-left: 50%;
-    transform: translateX(-50%);
+
 }
 #cont-blog h3{
     font-size: 2vw;
@@ -307,17 +306,20 @@ article .titulo-text{
     margin-left: 50%;
     transform: translateX(-50%);
 }
-#maindivar1{
+#contform{
     display: inline-block;
     width: 50%;
     float: left;
 
 }
-#maindivar1-blog{
-    width: 50%;
+#mmain-blog{
+    max-width: 3000px;
+}
+.maindivar1-blog{
+    width: 33%;
     float: left;
     display: inline-block;
-
+    
 }
 #hola{
     margin-left: 50%;
@@ -327,7 +329,7 @@ article .titulo-text{
     max-width: 2600px;
 }
 
-#maindivar2{
+#contredes{
     display: inline-block;
     width: 50%;
     float: left;
@@ -419,6 +421,11 @@ nav{
     border:#bbe1fa;
     text-decoration:none;
 }
+@media screen and (max-width: 544px) {
+    .maindivar1-blog{
+        width: 100% !important;
+    }
+}
 @media screen and (max-width: 768px) {
     .nav-pc a:not(:first-child) {
       display: none;
@@ -433,18 +440,14 @@ nav{
     .carousel-item  {
         left: 0%;
     }
-    #maindivar1{
+    #contform, #contredes{
         width: 100%;
-
-    }
-    #maindivar2{
-        width: 100%
     }
     .main-div .nombre{
     font-size: 20px;
     } 
-    #maindivar1-blog{
-        width: 100%;
+    .maindivar1-blog{
+        width: 50%;
     }
     .articlea .text,#index-art .text, .input-contacto, #maindivar1-blog .text{
         font-size: 11px;
