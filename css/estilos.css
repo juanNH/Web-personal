@@ -430,6 +430,10 @@ nav{
     border:#bbe1fa;
     text-decoration:none;
 }
+iframe{
+    height:503px;
+    width:100%;
+}
 @media screen and (max-width: 544px) {
     .cajas-blog{
         width: 100% !important;
