@@ -7,6 +7,20 @@ main{
     display: block;
     max-width: 2600px;
 }
+.C-negro{
+    color: black;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    border-color: red !important;
+    border-width: 2px !important;
+    border-style: solid !important;
+    background-color: black;
+}
+.carousel-indicators button{
+    border-color: black !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+}
 h1{
     text-align: center;
     position: relative;
@@ -456,7 +470,7 @@ nav{
     .formulario label, .input-contacto{
         font-size: 16px;
     }
-    .articlea .titulo-text, .article-contacto li a, #index-art .titulo-text, #maindivar1-blog .titulo-text,.blog-section .titulo-text{
+    .articlea .titulo-text, .article-contacto li a, #index-art .titulo-text, #maindivar1-blog .titulo-text,.blog-section .titulo-text  {
         font-size: 20px;
     }
     #article-contacto-redes a{
