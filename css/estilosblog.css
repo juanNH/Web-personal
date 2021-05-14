@@ -11,14 +11,18 @@
     margin-top: 15px;
     background-color: white;
     padding: 5px;
-    float: left;
+    float: right;
+    max-width: 600px;
+    display: inline-block;
 }
 .main-blog{
-background-color: white;
-width:66%;
-padding: 5px;
-float: left;
-margin-top: 15px;
+    background-color: white;
+    width:66%;
+    padding: 5px;
+    float: left;
+    margin-top: 15px;
+    max-width: 1500px;
+    display: inline-block;
 }
 .main-blog img{
     width: 100%;
@@ -34,4 +38,12 @@ margin-top: 15px;
 }
 h2{
  text-align: center;
+}
+aside img{
+    width: 100%;
+}
+@media screen and (max-width: 766px) {
+    .aside-blog ,.main-blog{
+        width: 100% !important;
+    }
 }
